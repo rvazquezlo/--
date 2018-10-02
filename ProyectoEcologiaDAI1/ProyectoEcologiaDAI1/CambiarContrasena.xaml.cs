@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ProyectoEcologiaDAI
+namespace ProyectoEcologiaDAI1
 {
     /// <summary>
-    /// Lógica de interacción para Ingresar.xaml
+    /// Lógica de interacción para CambiarContrasena.xaml
     /// </summary>
-    public partial class Ingresar : Window
+    public partial class CambiarContrasena : Window
     {
-        public Ingresar()
+        public CambiarContrasena()
         {
             InitializeComponent();
         }

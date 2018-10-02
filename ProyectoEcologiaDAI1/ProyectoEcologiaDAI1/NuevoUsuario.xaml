@@ -1,0 +1,23 @@
+﻿<Window x:Class="ProyectoEcologiaDAI1.NuevoUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoEcologiaDAI1"
+        mc:Ignorable="d"
+        Title="NuevoUsuario" Height="594.485" Width="419.118">
+    <Grid>
+
+        <Label x:Name="lNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="27,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.342,-0.975" Height="38" Width="99" FontSize="18"/>
+        <TextBox x:Name="tbNombre" HorizontalAlignment="Left" Height="28" Margin="27,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+        <Label x:Name="lCorreo" Content="Correo:" HorizontalAlignment="Left" Margin="27,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.342,-0.975" Height="38" Width="99" FontSize="18"/>
+        <TextBox x:Name="tbCorreo" HorizontalAlignment="Left" Height="28" Margin="27,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+        <Label x:Name="lContraseña" Content="Contraseña:" HorizontalAlignment="Left" Margin="21,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.342,-0.975" Height="38" Width="117" FontSize="18"/>
+        <TextBox x:Name="tbContraseña" HorizontalAlignment="Left" Height="28" Margin="27,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+        <Label x:Name="lConfirmar" Content="Confirmar:" HorizontalAlignment="Left" Margin="27,259,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.342,-0.975" Height="38" Width="117" FontSize="18"/>
+        <TextBox x:Name="tbConfirmar" HorizontalAlignment="Left" Height="28" Margin="27,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="559,143,0,0" VerticalAlignment="Top" Width="75" Height="74"/>
+        <Label x:Name="lFotoPerfil" Content="Foto de perfil " HorizontalAlignment="Left" Margin="139,458,0,0" VerticalAlignment="Top" Height="32" Width="102" FontSize="14"/>
+        <Button x:Name="bAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="305,500,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>

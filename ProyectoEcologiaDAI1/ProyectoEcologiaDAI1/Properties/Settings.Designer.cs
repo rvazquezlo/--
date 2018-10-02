@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoEcologiaDAI.Properties
+namespace ProyectoEcologiaDAI1.Properties
 {
 
 

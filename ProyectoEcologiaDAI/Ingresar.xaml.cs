@@ -10,25 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ProyectoEcologiaDAI
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Ingresar.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Ingresar : Window
     {
-        public MainWindow()
+        public Ingresar()
         {
             InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            
-           
+
         }
     }
 }
